@@ -1,0 +1,39 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: indigo;
+    padding: 1em;
+    color: #fff
+  }
+  img {
+    position: fixed;
+    width: 40px;
+    height: 30px;
+    left: 18rem;
+  }
+  body {
+    font-family: verdana, tahoma;
+    position: relative;
+    width: 100%;
+    top: 25rem;
+  }
+  #submit {
+    background-color: limegreen;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+       }
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  h1 {
+    font-family: Trebuchet MS, Segoe UI;
+    text-align: center;
+  }
